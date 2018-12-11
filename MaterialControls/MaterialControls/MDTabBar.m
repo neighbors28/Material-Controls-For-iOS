@@ -110,7 +110,7 @@
   [super insertSegmentWithImage:image atIndex:segment animated:animated];
   [self resizeItems];
   [self updateSegmentsList];
-  [self addRippleLayers];
+//   [self addRippleLayers];
   [self performSelector:@selector(moveIndicatorToSelectedIndexWithAnimated:)
              withObject:[NSNumber numberWithBool:animated]
              afterDelay:.001f];
@@ -122,7 +122,7 @@
   [super insertSegmentWithTitle:title atIndex:segment animated:animated];
   [self resizeItems];
   [self updateSegmentsList];
-  [self addRippleLayers];
+//   [self addRippleLayers];
   [self performSelector:@selector(moveIndicatorToSelectedIndexWithAnimated:)
              withObject:[NSNumber numberWithBool:animated]
              afterDelay:.001f];
@@ -444,7 +444,7 @@
 
 #pragma mark Private methods
 - (void)initContent {
-  self.horizontalInset = 8;
+  self.horizontalInset = 0;
 
   segmentedControl = [[MDSegmentedControl alloc] initWithTabBar:self];
   [segmentedControl setTintColor:[UIColor clearColor]];
