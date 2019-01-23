@@ -468,7 +468,7 @@
   self.layer.shadowOffset = CGSizeMake(0, 1.5);
 
   [self setTextColor:[UIColor whiteColor]];
-  [self setTextFont:[UIFontHelper robotoFontWithName:@"roboto-medium" size:14]];
+  [self setTextFont:[UIFontHelper robotoFontWithName:@"roboto-medium" size:16]];
   [self setIndicatorColor:[UIColor whiteColor]];
   [self setRippleColor:[UIColor whiteColor]];
 }
