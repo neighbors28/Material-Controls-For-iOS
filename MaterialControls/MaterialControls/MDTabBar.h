@@ -22,8 +22,8 @@
 
 #import <UIKit/UIKit.h>
 
-#define kMDTabBarHeight 48
-#define kMDIndicatorHeight 2
+#define kMDTabBarHeight 44
+#define kMDIndicatorHeight 3
 
 @class MDTabBar;
 
